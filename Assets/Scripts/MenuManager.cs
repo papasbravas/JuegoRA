@@ -8,7 +8,7 @@ public class MenuManager : MonoBehaviour
         //Reemplaza siempre por el nombre de tu escena de juego o el nº de indice de la escena
         SceneManager.LoadScene(1);
     }
-
+    
     public void Quitgame()
     {
         Debug.Log("Salir del juego");

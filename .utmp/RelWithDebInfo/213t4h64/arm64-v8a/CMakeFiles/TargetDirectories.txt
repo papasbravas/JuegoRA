@@ -1,0 +1,5 @@
+C:/Users/Usuario/Desktop/RA/JuegoRA/.utmp/RelWithDebInfo/213t4h64/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Desktop/RA/JuegoRA/.utmp/RelWithDebInfo/213t4h64/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/Usuario/Desktop/RA/JuegoRA/.utmp/RelWithDebInfo/213t4h64/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/Usuario/Desktop/RA/JuegoRA/.utmp/RelWithDebInfo/213t4h64/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Desktop/RA/JuegoRA/.utmp/RelWithDebInfo/213t4h64/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
