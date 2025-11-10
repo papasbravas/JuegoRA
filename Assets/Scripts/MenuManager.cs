@@ -11,7 +11,15 @@ public class MenuManager : MonoBehaviour
     
     public void Quitgame()
     {
-        Debug.Log("Salir del juego");
         Application.Quit(); //En android cerrará la app
+    }
+    public void Informacion()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Volver()
+    {
+        SceneManager.LoadScene(0);
     }
 }

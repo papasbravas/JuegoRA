@@ -86,9 +86,10 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI livesText;
     public TextMeshProUGUI depurText;
 
-    public GameObject botonReiniciar;   // referencia al botón oculto
-    public GameObject panelVictoria;    // opcional: panel de victoria
-    public GameObject panelDerrota;     // opcional: panel de derrota
+    public GameObject botonReiniciar;   
+    public GameObject btnInfo;
+    public GameObject panelVictoria;    
+    public GameObject panelDerrota;     
 
     private List<string> opcionesBuscar = new List<string> { "hamburguesa", "tartachocolate", "waffle" };
     private string targetABuscar;
@@ -165,7 +166,6 @@ public class GameController : MonoBehaviour
 
     public void ReiniciarJuego()
     {
-        Debug.Log("Botón Reiniciar presionado");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 }
