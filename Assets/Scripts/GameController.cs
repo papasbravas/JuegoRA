@@ -91,7 +91,7 @@ public class GameController : MonoBehaviour
     public GameObject panelVictoria;    
     public GameObject panelDerrota;     
 
-    private List<string> opcionesBuscar = new List<string> { "hamburguesa", "tartachocolate", "waffle" };
+    private List<string> opcionesBuscar = new List<string> { "hamburguesa", "tartachocolate", "waffle", "helado", "lechepuleva"};
     private string targetABuscar;
     private int vidas = 3;
     private int puntuacion = 0;
@@ -127,7 +127,7 @@ public class GameController : MonoBehaviour
             if (puntuacion >= puntuacionParaGanar)
             {
                 Victoria();
-                return;
+                //return;
             }
 
             generaSiguienteTarget();
@@ -138,7 +138,7 @@ public class GameController : MonoBehaviour
             if (vidas <= 0)
             {
                 GameOver();
-                return;
+                //return;
             }
         }
         ActualizaUI();

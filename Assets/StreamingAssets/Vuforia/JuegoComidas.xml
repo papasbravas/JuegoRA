@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="lechepuleva" size="0.120000 0.120000" />
+    <ImageTarget name="helado" size="0.120000 0.120000" />
     <ImageTarget name="waffle" size="0.120000 0.090000" />
     <ImageTarget name="tartachocolate" size="0.120000 0.109629" />
     <ImageTarget name="hamburguesa" size="0.120000 0.067500" />
